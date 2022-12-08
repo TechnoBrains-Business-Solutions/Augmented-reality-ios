@@ -28,7 +28,7 @@ class ViewController: UIViewController,ARCoachingOverlayViewDelegate {
         sceneView.delegate = self
         let moveGesture = UIPanGestureRecognizer(target: self,
                                                      action: #selector(moveModel))
-        self.sceneView.addGestureRecognizer(moveGesture)
+      //  self.sceneView.addGestureRecognizer(moveGesture)
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
